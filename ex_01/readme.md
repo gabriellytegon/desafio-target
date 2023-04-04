@@ -1,0 +1,1 @@
+<p>Ao final do processmaneto o valor da variável SOMA será 91.</p>

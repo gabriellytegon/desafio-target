@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5 - teste Target</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgba(229, 235, 255, 0.784);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            width: 80vh;
+            gap: 1rem;
+            flex-direction: column;
+        }
+
+        h1{
+            margin-bottom: 2rem;
+        }
+
+        input{
+            width: 97%;
+            height: 1.5rem;
+            padding-left: 1rem;
+            font-size: 1rem;
+        }
+
+        button{
+            width: 100%;
+            height: 1.7rem; 
+            background-color: rgb(47, 0, 156);
+            color: white;
+            border-radius: 0.3rem;
+            font-size: 1rem;
+        }
+
+        #newString{
+            width: 95%;
+            height: 1.5rem;
+            background-color: white;
+            border: .01rem black solid;
+            padding: .2rem 1rem 0rem;
+            font-size: 1rem;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <h1>Inverta um texto</h1>
+        <p>Digite o texto:</p>
+        <input  wrap="hard" type="text">
+        <button onclick="invertString()">Inverter</button>
+        <p>Texto invertido:</p>
+        <div id="newString"></div>
+    </div>
+
+    <script type="text/Javascript" src="script.js"></script>
+</body>
+</html>
